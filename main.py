@@ -123,7 +123,6 @@ def http_debug_message(http_response: HTTPResponse):
 
 while True:
     try:
-
         # Measure weather data (temperature, humidity, pressure, wind speed, rain/water level)
         temperature, humidity, pressure = bme_sensor.temperature, bme_sensor.humidity, bme_sensor.pressure
         wind_speed = read_wind_speed()
@@ -151,7 +150,6 @@ while True:
         deepsleep(DEEPSLEEP_TIME)
 
     except Exception as e:
-
         # Catch all occurring errors (exceptions) and 'print' debug message
         # After ERROR_RETRY_TIME seconds try again to measure and send the weather data
         debug_message(f"Error occurred, retry in {ERROR_RETRY_TIME} seconds ...")
