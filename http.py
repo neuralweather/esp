@@ -20,7 +20,7 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 # THE SOFTWARE.
 
-# HTTP request library to send send and receive data over the HTTP protocol.
+# HTTP request library to send and receive data over the HTTP protocol.
 
 
 # Import modules
